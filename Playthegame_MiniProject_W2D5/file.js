@@ -102,8 +102,8 @@ In the First Part, instead of stopping the process if the user didn’t enter a 
  Continue asking for a number until the user enters a valid number.
  */
 
- /* We will do this instruction inthe following lines because i don't really know if i have uderstood it. 
-  So to use the function take it of comment before and put the first on top in comment
+ /* We will do this instruction in the following lines because we don't really know if we have uderstood it. 
+  So to use the function take it of comment before and put the first function on top in comment
   */
 
 
