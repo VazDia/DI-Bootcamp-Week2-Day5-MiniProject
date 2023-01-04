@@ -62,22 +62,23 @@ function compareNumbers(convertedUserNumber,computerNumber){
       else{
           if(numberOfchance===4){       // droping the game when the number of chance is out of 3
               alert("Out of chance");
+              
             }
             else if (convertedUserNumber > computerNumber){   // Condition when the user's number is the biggest
-                alert("Your number is bigger than computer's number")
+                alert("Your number is bigger than computer's number,guess again")
                 var userNumber = prompt("Enter a number between 0 and 10"); // Invite user to enter a number again
                 convertedUserNumber=Number(userNumber);
-                while (isNaN(convertedUserNumber || convertedUserNumber > 10 || userNumber.length===0)){ // A loop to force the user to enter a number between 0 and 10
+                while (isNaN(convertedUserNumber) || convertedUserNumber > 10 || userNumber.length===0)){ // A loop to force the user to enter a number between 0 and 10
                     alert("Please enter a good number");
                     userNumber = prompt("Enter a number between 0 and 10");
                     convertedUserNumber=Number(userNumber);  
                 }
                 computerNumber=Math.floor(Math.random()*11) // Ask the computer for  a new random number between 0 and 10
             }else{ //Condition when the user's number is the smallest
-                alert("Your number is smaller than computer's number")
+                alert("Your number is smaller than computer's number, guess again")
                 userNumber = prompt("Enter a number between 0 and 10"); // Invite user to enter a number again
                 convertedUserNumber=Number(userNumber);
-                while (isNaN(convertedUserNumber || convertedUserNumber > 10 || userNumber.length===0)){ // A loop to force the user to enter a number between 0 and 10
+                while (isNaN(convertedUserNumber) || convertedUserNumber > 10 || userNumber.length===0)){ // A loop to force the user to enter a number between 0 and 10
                     alert("Please enter a good number");
                     alert("Please enter a good number");
                     userNumber = prompt("Enter a number between 0 and 10");
