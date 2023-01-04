@@ -68,7 +68,7 @@ function compareNumbers(convertedUserNumber,computerNumber){
                 alert("Your number is bigger than computer's number,guess again")
                 var userNumber = prompt("Enter a number between 0 and 10"); // Invite user to enter a number again
                 convertedUserNumber=Number(userNumber);
-                while (isNaN(convertedUserNumber) || convertedUserNumber > 10 || userNumber.length===0)){ // A loop to force the user to enter a number between 0 and 10
+                while (isNaN(convertedUserNumber) || convertedUserNumber > 10 || userNumber.length===0){ // A loop to force the user to enter a number between 0 and 10
                     alert("Please enter a good number");
                     userNumber = prompt("Enter a number between 0 and 10");
                     convertedUserNumber=Number(userNumber);  
@@ -78,7 +78,7 @@ function compareNumbers(convertedUserNumber,computerNumber){
                 alert("Your number is smaller than computer's number, guess again")
                 userNumber = prompt("Enter a number between 0 and 10"); // Invite user to enter a number again
                 convertedUserNumber=Number(userNumber);
-                while (isNaN(convertedUserNumber) || convertedUserNumber > 10 || userNumber.length===0)){ // A loop to force the user to enter a number between 0 and 10
+                while (isNaN(convertedUserNumber) || convertedUserNumber > 10 || userNumber.length===0){ // A loop to force the user to enter a number between 0 and 10
                     alert("Please enter a good number");
                     alert("Please enter a good number");
                     userNumber = prompt("Enter a number between 0 and 10");
